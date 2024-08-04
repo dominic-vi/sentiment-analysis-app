@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: start;
+			}
+
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 150%;
+				}
+			}
+		</style>
+		<link rel="stylesheet" href="/static/style.css">
+		<title>Phân tích cảm xúc</title>
+	</head>
+	<body>
+		<form method=post enctype=multipart/form-data>
+			<div style="height:80px"></div>
+			<div class="container">
+				<h3 style= "color:#030d9b"><i>Ứng dụng phân tích cảm xúc văn bản</i></h3>
+				<hr>
+				<div style="height:50px"></div>
+				<h4 style= "color:#030d9b">Văn bản của bạn:</h4>
+				<p id="demo">{{ text }}</p>
+				<div style="height:25px"></div>
+				<h4 style= "color:#030d9b">Kết quả:</h4>
+				<p id="demo">{{ prediction }}</p>
+			</div>
+			<div style= "height:25px"></div>
+			<div class="container">
+				<table style="width:50%">
+					<tr>
+					  <th><h4 style= "color:#030d9b">Chỉ số cảm xúc</h4></th>
+					  <th><h4 style= "color:#030d9b">Điểm</h></th> 
+					</tr>
+					<tr>
+					  <td><p id="content">Tích cực</p></td>
+					  <td><p id="content">{{POS}}</p></td>	  
+					</tr>
+					<tr>
+					  <td><p id="content">Trung tính</p></td>
+					  <td><p id="content">{{NEU}}</p></td>			  
+					</tr>
+					<tr>
+					  <td><p id="content">Tiêu cực</p></td>
+					  <td><p id="content">{{NEG}}</p></td>
+					</tr>
+				  </table>
+			</div>
+			<div style= "height:25px"></div>
+
+    	</form>
+		<script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	</body>
+</html>
