@@ -23,14 +23,14 @@
 		<form method=post enctype=multipart/form-data>
 			<div style="height:80px"></div>
 			<div class="container">
-				<h3 style= "color:#030d9b"><i>Ứng dụng phân tích cảm xúc văn bản</i></h3>
+				<h1 style= "color:#030d9b"><i>Ứng dụng phân tích cảm xúc văn bản</i></h1>
 				<hr>
 				<div style="height:50px"></div>
-				<h5>Nhập đoạn văn cần phân tích (bằng tiếng Việt): </h5>
+				<h4 style= "color:#030d9b">Nhập đoạn văn cần phân tích (bằng tiếng Việt): </h4>
 				<textarea name="message" placeholder="Nhập gì đó nào...." rows="10" cols="109"></textarea><br><br>
 				<br/>
 				<div style= "height:20px"></div>
-				<h5>Chọn mô hình: </h5>
+				<h4 style= "color:#030d9b">Chọn mô hình: </h4>
 				<select name="model_choice">
 				{%for i in range(0, len)%}
 			  		<option>{{listOfKeys[i]}}</option>
