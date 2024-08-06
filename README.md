@@ -5,15 +5,13 @@
 
 ### To run the application you're going to need to need the PhoBERT's finetuned weight file added to the weight directory
 It should look something like this (if you don't have a weight directory feel free to create one)
-``
-+-- static
-|   +-- style.css
-+-- templates
-|   +-- home.html
-|   +-- result.html
-+-- weights
-|   +-- place your weight file (.pt) here
-+-- .gitignore
-+-- app.py
-+-- requirements.txt
-``
+
+    ├── static                    
+    │   ├── style.css
+    ├── templates                    
+    │   ├── home.html
+    │   ├── result.html
+    ├── weights                    
+    │   ├── [place your weight file here (.pt)]
+    ├── app.py                    
+    ├── requirements.txt 
