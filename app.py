@@ -37,7 +37,7 @@ class BertClassifier(nn.Module):
         return x
 
 #MODEL_PATH to PhoBERT fine tuned on Vietnamese sentiment dataset
-MODEL_PATH = r"vn_sentiment_best.pt"
+MODEL_PATH = r"weights\vn_sentiment_best.pt"
 
 # create a python dictionary for your models d = {<key>: <value>, <key>: <value>, ..., <key>: <value>}
 dictOfModels = {
