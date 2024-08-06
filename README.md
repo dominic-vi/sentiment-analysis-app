@@ -5,7 +5,7 @@
 
 ### To run the application you're going to need to need the PhoBERT's finetuned weight file added to the weight directory
 It should look something like this (if you don't have a weight directory feel free to create one)
-'''bash
+``
 +-- static
 |   +-- style.css
 +-- templates
@@ -16,4 +16,4 @@ It should look something like this (if you don't have a weight directory feel fr
 +-- .gitignore
 +-- app.py
 +-- requirements.txt
-'''
+``
