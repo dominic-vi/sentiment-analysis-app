@@ -1,4 +1,4 @@
-## A Simple Sentiment Classification App using a finetuned PhoBERT
+## A Simple Sentiment Classification App using a finetuned PhoBERT & Flask
 
 ### 1.Install modules needed to run the app
     pip install -r requirements.txt
