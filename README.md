@@ -16,10 +16,5 @@ It should look something like this (if you don't have a weight directory feel fr
     ├── app.py                    
     ├── requirements.txt 
 
-<<<<<<< HEAD
 ### 3. Run the app
     flask --app app run
-=======
-### 3.Run the app
-    flask --app app run
->>>>>>> ef8c2e9ddc91a4415fb03e277f6325bb802cd666
