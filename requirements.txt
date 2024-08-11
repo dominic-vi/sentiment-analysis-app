@@ -1,4 +1,4 @@
-torch
-transformers
-flask
-underthesea
+torch==2.4.0
+transformers==4.43.3
+Flask==3.0.3
+underthesea==6.8.4
