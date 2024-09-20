@@ -20,4 +20,4 @@ It should look something like this (if you don't have a weight directory feel fr
     ├── requirements.txt 
 
 ### 4. Run the app
-    flask --app app run
+    python app.py
