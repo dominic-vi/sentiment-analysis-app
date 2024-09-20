@@ -113,4 +113,4 @@ def predict():
         return render_template('result.html', text=f'{message}', prediction=my_prediction, POS = round(results['Positive'],5), NEU = round(results['Neutral'],5), NEG = round(results['Negative'],5))
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=2807)
