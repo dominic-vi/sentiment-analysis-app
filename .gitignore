@@ -81,7 +81,7 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-#Pytorch .pt weights files
+# Model Weights
 *.pt
 
 # Environments

@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    image: sentiment-analysis-app
+    ports:
+      - "2807:2807"
+    restart: unless-stopped

@@ -33,7 +33,7 @@ class BertClassifier(nn.Module):
         x = self.fc(x)
         return x
 
-MODEL_PATH = r"weights\vn_sentiment_best.pt"
+MODEL_PATH = r"/weights/vn_sentiment_best.pt"
 
 dictOfModels = {
     "Phở BERT": transformers.RobertaForSequenceClassification.from_pretrained("wonrax/phobert-base-vietnamese-sentiment"),
