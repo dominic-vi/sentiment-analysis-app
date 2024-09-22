@@ -83,7 +83,6 @@ celerybeat-schedule
 
 # Model Weights
 *.pt
-weights\
 
 # Environments
 .env
